@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Dz_Classes_Strucrures_Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Dz_Exception_Namespace", "06_Dz_Exception_Namespace\06_Dz_Exception_Namespace.csproj", "{D13726CC-B159-4856-ACA1-B559E6B79402}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Dz_Overloading_Operators", "07_Dz_Overloading_Operators\07_Dz_Overloading_Operators.csproj", "{1DF40C6C-FAB3-4086-8BA3-CCB7612FB5E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{D13726CC-B159-4856-ACA1-B559E6B79402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D13726CC-B159-4856-ACA1-B559E6B79402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D13726CC-B159-4856-ACA1-B559E6B79402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF40C6C-FAB3-4086-8BA3-CCB7612FB5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF40C6C-FAB3-4086-8BA3-CCB7612FB5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF40C6C-FAB3-4086-8BA3-CCB7612FB5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF40C6C-FAB3-4086-8BA3-CCB7612FB5E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
