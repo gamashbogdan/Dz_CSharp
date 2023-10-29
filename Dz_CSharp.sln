@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Dz_Overloading_Operators
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Dz_Inheritance_Indexers", "08_Dz_Inheritance_Indexers\08_Dz_Inheritance_Indexers.csproj", "{A32B27D9-5CAE-4625-B754-0879824C6547}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Dz_Interfaces", "09_Dz_Interfaces\09_Dz_Interfaces.csproj", "{AA83DAE2-09D1-4404-B73D-1DA6E8FEBE9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{A32B27D9-5CAE-4625-B754-0879824C6547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A32B27D9-5CAE-4625-B754-0879824C6547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A32B27D9-5CAE-4625-B754-0879824C6547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA83DAE2-09D1-4404-B73D-1DA6E8FEBE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA83DAE2-09D1-4404-B73D-1DA6E8FEBE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA83DAE2-09D1-4404-B73D-1DA6E8FEBE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA83DAE2-09D1-4404-B73D-1DA6E8FEBE9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
