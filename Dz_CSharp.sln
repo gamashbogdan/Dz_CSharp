@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Dz_Intro_to_Microsoft_NET
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Dz_Array_Enum", "2_Dz_Array_Enum\2_Dz_Array_Enum.csproj", "{C90ED923-F272-47F5-9CDD-4FB7B7410236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Dz_Strings", "3_Dz_Strings\3_Dz_Strings.csproj", "{8B46527B-7CC5-457A-AF78-EB6891E07ACD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Dz_Strings", "3_Dz_Strings\3_Dz_Strings.csproj", "{8B46527B-7CC5-457A-AF78-EB6891E07ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Dz_Intro_to_OOP_Properties", "4_Dz_Intro_to_OOP_Properties\4_Dz_Intro_to_OOP_Properties.csproj", "{7BE0E8F1-A146-4961-8874-35C732B73E11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8B46527B-7CC5-457A-AF78-EB6891E07ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B46527B-7CC5-457A-AF78-EB6891E07ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B46527B-7CC5-457A-AF78-EB6891E07ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE0E8F1-A146-4961-8874-35C732B73E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE0E8F1-A146-4961-8874-35C732B73E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE0E8F1-A146-4961-8874-35C732B73E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE0E8F1-A146-4961-8874-35C732B73E11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
