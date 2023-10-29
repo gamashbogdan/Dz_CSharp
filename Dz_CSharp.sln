@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_Dz_Interfaces", "9_Dz_Int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Dz_Standart_Interfaces_Enum", "10_Dz_Standart_Interfaces_Enum\10_Dz_Standart_Interfaces_Enum.csproj", "{49EEC4EC-0F09-4799-9A2E-43292D9FEA22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Dz_Delegates", "11_Dz_Delegates\11_Dz_Delegates.csproj", "{21299F1F-A99E-4865-9A3C-52A3655533C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{49EEC4EC-0F09-4799-9A2E-43292D9FEA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49EEC4EC-0F09-4799-9A2E-43292D9FEA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49EEC4EC-0F09-4799-9A2E-43292D9FEA22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21299F1F-A99E-4865-9A3C-52A3655533C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21299F1F-A99E-4865-9A3C-52A3655533C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21299F1F-A99E-4865-9A3C-52A3655533C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21299F1F-A99E-4865-9A3C-52A3655533C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
