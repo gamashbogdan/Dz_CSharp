@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Dz_Strings", "3_Dz_String
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Dz_Intro_to_OOP_Properties", "4_Dz_Intro_to_OOP_Properties\4_Dz_Intro_to_OOP_Properties.csproj", "{7BE0E8F1-A146-4961-8874-35C732B73E11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Dz_Classes_Strucrures_Ref_Out", "5_Dz_Classes_Strucrures_Ref_Out\5_Dz_Classes_Strucrures_Ref_Out.csproj", "{67E127E7-982F-4BAC-B63E-BBD463B3E56B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7BE0E8F1-A146-4961-8874-35C732B73E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BE0E8F1-A146-4961-8874-35C732B73E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BE0E8F1-A146-4961-8874-35C732B73E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E127E7-982F-4BAC-B63E-BBD463B3E56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E127E7-982F-4BAC-B63E-BBD463B3E56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E127E7-982F-4BAC-B63E-BBD463B3E56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E127E7-982F-4BAC-B63E-BBD463B3E56B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
