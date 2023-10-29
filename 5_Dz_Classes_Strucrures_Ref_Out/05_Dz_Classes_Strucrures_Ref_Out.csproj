@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>_5_Dz_Classes_Strucrures_Ref_Out</RootNamespace>
+    <RootNamespace>_05_Dz_Classes_Strucrures_Ref_Out</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
