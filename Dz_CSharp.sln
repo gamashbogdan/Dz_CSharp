@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_Dz_Inheritance_Indexers",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_Dz_Interfaces", "9_Dz_Interfaces\9_Dz_Interfaces.csproj", "{AA4247DA-1C5B-44D3-8391-7DC3040AB42E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Dz_Standart_Interfaces_Enum", "10_Dz_Standart_Interfaces_Enum\10_Dz_Standart_Interfaces_Enum.csproj", "{49EEC4EC-0F09-4799-9A2E-43292D9FEA22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{AA4247DA-1C5B-44D3-8391-7DC3040AB42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA4247DA-1C5B-44D3-8391-7DC3040AB42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA4247DA-1C5B-44D3-8391-7DC3040AB42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49EEC4EC-0F09-4799-9A2E-43292D9FEA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49EEC4EC-0F09-4799-9A2E-43292D9FEA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49EEC4EC-0F09-4799-9A2E-43292D9FEA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49EEC4EC-0F09-4799-9A2E-43292D9FEA22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
