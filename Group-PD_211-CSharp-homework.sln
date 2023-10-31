@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Dz_Inheritance_Indexers"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Dz_Interfaces", "09_Dz_Interfaces\09_Dz_Interfaces.csproj", "{AA83DAE2-09D1-4404-B73D-1DA6E8FEBE9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Dz_Generic_Collections", "14_Dz_Generic_Collections\14_Dz_Generic_Collections.csproj", "{4324ABA1-4E58-4692-ADFD-6A6132EAF528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Dz_Generic_Collections", "14_Dz_Generic_Collections\14_Dz_Generic_Collections.csproj", "{4324ABA1-4E58-4692-ADFD-6A6132EAF528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Dz_File_Streams_Binary_Text_Formats", "15_Dz_File_Streams_Binary_Text_Formats\15_Dz_File_Streams_Binary_Text_Formats.csproj", "{CBE879B6-698C-4981-B65F-1EBA47180A83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{4324ABA1-4E58-4692-ADFD-6A6132EAF528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4324ABA1-4E58-4692-ADFD-6A6132EAF528}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4324ABA1-4E58-4692-ADFD-6A6132EAF528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE879B6-698C-4981-B65F-1EBA47180A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE879B6-698C-4981-B65F-1EBA47180A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE879B6-698C-4981-B65F-1EBA47180A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE879B6-698C-4981-B65F-1EBA47180A83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
