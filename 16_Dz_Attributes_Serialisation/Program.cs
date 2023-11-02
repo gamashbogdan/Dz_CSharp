@@ -1,5 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
+
 namespace Dz_na_09._11
 {
     #region Zavdanua
@@ -63,7 +67,7 @@ namespace Dz_na_09._11
         [RegularExpression(@"^\d{16}$", ErrorMessage = "Invalid credit card number format")]
         public string CreditCard { get; set; }
     }
-
+    [Serializable]
     class Program
     {
         static Dictionary<int, User> users = new Dictionary<int, User>();
@@ -133,7 +137,7 @@ namespace Dz_na_09._11
                 var result = new List<ValidationResult>();
                 var context = new ValidationContext(newUser);
 
-                if (!(isValid = Validator.TryValidateObject(newUser, context, result, true)))
+                if (!(isValid = Validator.TryValidateObject(newUser, context, result, false)))
                 {
                     foreach (ValidationResult error in result)
                     {
@@ -166,13 +170,20 @@ namespace Dz_na_09._11
         static void SerializeAndSaveUserData()
         {
             // Серіалізація та збереження даних користувачів в файл
-            using (FileStream fs = new FileStream("user_data.bin", FileMode.Create))
+            if (users.Count > 0)
             {
                 BinaryFormatter formatter = new BinaryFormatter();
-                formatter.Serialize(fs, users);
+                using (Stream fs = File.Create("user_data.bin"))
+                {
+                    formatter.Serialize(fs, users);
+                }
+                Console.WriteLine("User data has been serialized and saved.");
+            }
+            else
+            {
+                Console.WriteLine("No user data to save.");
             }
 
-            Console.WriteLine("User data has been serialized and saved.");
         }
 
         static void DeserializeAndLoadUserData()
@@ -180,11 +191,24 @@ namespace Dz_na_09._11
             if (File.Exists("user_data.bin"))
             {
                 // Десеріалізація та завантаження даних користувачів з файлу
-                using (FileStream fs = new FileStream("user_data.bin", FileMode.Open))
+                BinaryFormatter formatter = new BinaryFormatter();
+                Dictionary<int, User> loadUsers = null;
+                using (Stream fs = File.OpenRead("user_data.bin"))
                 {
-                    BinaryFormatter formatter = new BinaryFormatter();
-                    users = (Dictionary<int, User>)formatter.Deserialize(fs);
+                    loadUsers = (Dictionary<int, User>)formatter.Deserialize(fs);
                 }
+                foreach (var item in loadUsers)
+                {
+                    Console.WriteLine($"User ID: {item.Key}");
+                    Console.WriteLine($"Login: {item.Value.Login}");
+                    Console.WriteLine($"Password: {item.Value.Password}");
+                    Console.WriteLine($"Confirm Password: {item.Value.ConfirmPassword}");
+                    Console.WriteLine($"Email: {item.Value.Email}");
+                    Console.WriteLine($"Phone: {item.Value.Phone}");
+                    Console.WriteLine($"Credit Card: {item.Value.CreditCard}");
+                    Console.WriteLine();
+                }
+
 
                 Console.WriteLine("User data has been deserialized and loaded.");
             }
