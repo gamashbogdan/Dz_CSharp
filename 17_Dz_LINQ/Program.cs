@@ -21,20 +21,19 @@
             Console.WriteLine("Відсортовані позитивні числа:");
             foreach (var num in positiveNumbersSorted)
             {
-                Console.Write(num+ "  ");
+                Console.Write(num + "  ");
             }
             // Завдання 2
-            int[] arr1 = { 12, -34, 56, -78, 90, 23, 45, -67, 89, 10 };
+            int[] arr1 = {1,9,5, 10 ,12, -34, 56, -78, 90, 23, 45, -67, 89, 10 };
             var positiveTwoDigitElements = arr1.Where(x => x > 9 && x < 100);
             int count = positiveTwoDigitElements.Count();
             double average = positiveTwoDigitElements.Average();
             Console.WriteLine($"\n\nКількість позитивних двозначних елементів: {count}");
             foreach (var num in positiveTwoDigitElements)
             {
-                Console.Write(num+"  ");
+                Console.Write(num + "  ");
             }
             Console.WriteLine($"\n\nСереднє арифметичне: {average}");
-
         }
     }
 }
