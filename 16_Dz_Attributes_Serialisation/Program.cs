@@ -1,9 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization.Formatters.Binary;
-using System.IO;
-
 namespace Dz_na_09._11
 {
     #region Zavdanua
